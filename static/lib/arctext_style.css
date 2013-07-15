@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Concert One';
+	src:url('../fonts/ConcertOne.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+#fc-slideshow {
+	margin-top:15px;
+}
+.radio_word_1{
+	margin-left:28px;
+}
+.radio_word_1 h3{
+	font-family: 'Concert One', serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	color: #F8CABF;
+	font-size: 50px;
+}
+.radio_word_2 {
+	margin-left: 65px;
+	margin-top: 13px;
+}
+.radio_word_2 h3{
+	font-family: 'Concert One', serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	color: #F8CABF;
+	font-size: 50px;
+}
