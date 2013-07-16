@@ -75,8 +75,10 @@ function startHeartAnimation() {
 				}
 				d.html(c.substring(0, b) + (b & 1 ? "_" : ""));
 				if (b >= c.length) {
-					clearInterval(e)
-					$(".mlls").fadeIn("slow");
+					clearInterval(e);
+					if($(".mlls")){
+						$(".mlls").fadeIn("slow");
+					}
 				}
 			}, 75)
 		});
@@ -147,6 +149,7 @@ function init() {
 			callback: function() {
 				highlight($(".page_2"));
 				showMessages();
+				hidehelp();
 			},
 			name: "description"})
 		// Arc down and line to 'syntax'
@@ -198,6 +201,7 @@ function init() {
 			callback: function() {
 				highlight($(".page_8"));
 				showMessages();
+				hidehelp();
 			},
 			name: "follow"
 		})
@@ -216,6 +220,9 @@ function init() {
 			$.fn.scrollPath("scrollTo", target, 800, "easeInOutSine");
 		});
 	});
+}
+function hidehelp(){
+	$(".mlls").remove();
 }
 $(document).ready(function(){
 	$(".mlls").hover(function(){
