@@ -224,6 +224,8 @@ $(document).ready(function(){
 		$(".notice").stop(true,true).fadeIn("slow");
 	}).mouseout(function(){
 		$(".notice").stop(true,true).fadeOut("slow");
+	}).click(function(){
+		$.fn.scrollPath("scrollTo", "description", 800, "easeInOutSine");
 	});
 	$("#tile1").liveTile(
 	    {
