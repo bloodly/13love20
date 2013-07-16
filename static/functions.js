@@ -15,8 +15,6 @@ $(function() {
 	garden = new Garden(gardenCtx, gardenCanvas);
 	$("#content").css("width", $loveHeart.width() + $("#code").width());
 	$("#content").css("height", Math.max($loveHeart.height(), $("#code").height()));
-	// $("#content").css("margin-top", Math.max(($window.height() - $("#content").height()) / 2, 10));
-	// $("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));
 	setInterval(function() {
 		garden.render()
 	}, Garden.options.growSpeed)
@@ -141,6 +139,7 @@ function init() {
 		.moveTo(400, 50, {
 			callback: function() {
 				highlight($(".page_1"));
+				adjustWordsPosition();
 			},
 			name: "start"})
 		// Line to 'description' element
