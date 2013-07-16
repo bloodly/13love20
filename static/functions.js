@@ -148,7 +148,6 @@ function init() {
 			callback: function() {
 				highlight($(".page_2"));
 				showMessages();
-				$("body").animate({ backgroundColor: "#aa0000" }, 2000);
 			},
 			name: "description"})
 		// Arc down and line to 'syntax'
