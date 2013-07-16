@@ -102,7 +102,7 @@ nav ul li:hover,nav ul .highlight {background-color: white;color:rgb(255, 173, 1
 }
 
 .follow {
-	width: 520px;
+	width: 550px;
 	left: 1200px;
 	top: -835px;
 	-webkit-transform-origin: center center;
@@ -213,6 +213,6 @@ nav ul li:hover,nav ul .highlight {background-color: white;color:rgb(255, 173, 1
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	color: #F8CABF;
-	font-size: 35px;
+	font-size: 40px;
 	position: absolute;
 }
