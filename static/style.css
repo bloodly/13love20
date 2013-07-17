@@ -219,3 +219,12 @@ nav ul li:hover,nav ul .highlight {background-color: white;color:rgb(255, 173, 1
 a img[width="20"] {
 	display:none;
 }
+#hidebaiduimg {
+	width:20px;
+	height:20px;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color:rgb(255, 240, 240);
+	z-index:1;
+}
