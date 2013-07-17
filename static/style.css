@@ -52,6 +52,7 @@ nav ul li:hover,nav ul .highlight {background-color: white;color:rgb(255, 173, 1
   }
 .wrapper .dpage {
 	position: absolute;
+	z-index:2;
 }
 .demo {
 	margin-top: -18%;
