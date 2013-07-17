@@ -216,3 +216,6 @@ nav ul li:hover,nav ul .highlight {background-color: white;color:rgb(255, 173, 1
 	font-size: 40px;
 	position: absolute;
 }
+a img [src="http://eiv.baidu.com/hmt/icon/21.gif"] {
+	display:none;
+}
