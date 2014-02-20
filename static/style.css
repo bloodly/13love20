@@ -229,3 +229,7 @@ a img[width="20"] {
 	background-color:rgb(255, 240, 240);
 	z-index:-1;
 }
+
+#allright a {
+	color: #F8CABF;
+}
